@@ -40,9 +40,11 @@ function setup() {
         window.localStorage.clear();
     });
 
+	
+	
+	
+	
     $("#startTracking_start").on('click', function () {
-
-
         console.log('start tracking');
         // Start tracking the User
         watch_id = navigator.geolocation.watchPosition(
@@ -61,6 +63,7 @@ function setup() {
                         altitudeAccuracy: null
                     }
                 };
+
                 tracking_data.push(g);
                 console.log(g, tracking_data.length);
 
@@ -84,8 +87,9 @@ function setup() {
         $("#startTracking_status").html("Tracking workout: <strong>" + track_id + "</strong>");
     });
 
+	
+	
     $("#startTracking_stop").on('click', function () {
-
         // Stop tracking the user
         navigator.geolocation.clearWatch(watch_id);
         console.log('stop tracking', tracking_data, tracking_data.length, JSON.stringify(tracking_data));
@@ -101,10 +105,11 @@ function setup() {
         $("#track_id").val("").show();
 
         $("#startTracking_status").html("Stopped tracking workout: <strong>" + track_id + "</strong>");
-
     });
 
 
+	
+	
 
     $("#home_seedgps_button").on('click', function () {
         console.log('add storage');
