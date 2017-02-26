@@ -1,0 +1,101 @@
+#masterHalf {
+	position:fixed;
+	left:0;
+	right:0;
+	height:60%;
+	top:0;
+	background-color:grey;
+}
+
+
+
+#slaveHalf{
+	position:fixed;
+	left:0;
+	right:0;
+	height:40%;
+	bottom:0;
+	background-color:black;
+}
+
+#content {
+	
+	top: 15%;
+    position: relative;
+	background-color: #1C1C1C;
+	width: 90%;
+	height: 65%;
+	margin: 0 auto;
+	}
+
+#pP {
+	position: relative;
+	float: left;
+	height: 100%;
+	width:40%;
+}
+
+#nameText {
+	position: relative;
+	top:10%;
+	left:3%;
+	color: #afafaf;
+	font-size:21px;
+}
+
+
+#infoText {
+	position: relative;
+	left:3%;
+	top: 5%;
+	color: #ffffff;
+	font-size:20px;
+}
+
+
+
+#timeText {
+	position: relative;
+	left:3%;
+	top: 10%;
+	color: #1bb9fc;
+	font-size:12px;
+}
+
+#map {
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
