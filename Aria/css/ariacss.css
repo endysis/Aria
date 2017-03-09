@@ -1,7 +1,7 @@
 /* Main Page */
 
 body {
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 #masterHalf {
@@ -120,6 +120,114 @@ body {
 	color: #1bb9fc;
 	font-size:12px;
 }
+
+
+
+/* Testing */
+
+.da-second-nav ul {
+  position: fixed;
+  right: 5%;
+  bottom: 20px;
+  visibility: hidden;
+  transform: scale(0);
+  transform-origin: 100% 100%;
+  transition: transform 0.3s, visibility 0s 0.3s;
+}
+.da-second-nav ul.is-visible {
+  visibility: visible;
+  transform: scale(1);
+  transition: transform 0.3s, visibility 0s 0s;
+}
+ 
+@media only screen and (min-width: 1170px) {
+  .da-second-nav ul {
+    /* reset navigation values */
+    position: static;
+    width: auto;
+    max-width: 100%;
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+ 
+.da-second-nav-beAtrigger {
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  width: 44px;
+  height: 44px;
+}
+
+@media only screen and (min-width: 1170px) {
+  .da-second-nav-beAtrigger {
+    display: none;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1170px) {
+  .cd-secondary-nav.is-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 100%;
+  }
+  .cd-secondary-nav li a {
+    padding: 58px 40px 0 40px;
+    transition: padding 0.2s;
+  }
+  .cd-secondary-nav li a span {
+    transition: opacity 0.2s;
+  }
+  .cd-secondary-nav.animate-children li a {
+    padding: 26px 30px 0 30px;
+  }
+  .cd-secondary-nav.animate-children li a span {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 1170px) {
+  #cd-logo.is-hidden {
+    /* assign a position fixed and move outside the viewport (on the left) */
+    opacity: 0;
+    position: fixed;
+    left: -20%;
+    transition: left 0.3s, opacity 0.3s;
+  }
+  #cd-logo.is-hidden.slide-in {
+    /* slide in when the secondary navigation gets fixed */
+    left: 5%;
+    opacity: 1;
+  }
+ 
+  .cd-btn.is-hidden {
+    /* assign a position fixed and move outside the viewport (on the right) */
+    opacity: 0;
+    position: fixed;
+    right: -20%;
+    transition: right 0.3s, opacity 0.3s;
+  }
+  .cd-btn.is-hidden.slide-in {
+    /* slide in when the secondary nav gets fixed */
+    right: 5%;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
 
 
 
