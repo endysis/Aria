@@ -1,16 +1,146 @@
 /* Main Page */
-
 body {
-	background-color: #ffffff;
+	background-color: #000000;
 }
 
-#masterHalf {
+
+
+
+
+#content {
+	
+	top: 15%;
+    position: relative;
+	background-color: #1C1C1C;
+	width: 90%;
+	height: 65%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#pP {
+	position: relative;
+	float: left;
+	height:auto;
+	width: auto;
+	max-width:100%;
+	max-height:100%;
+}
+
+#nameText {
+	position: relative;
+	top:10%;
+	left:3%;
+	color: #afafaf;
+	font-size:21px;
+}
+
+#infoText {
+	position:relative;
+	left:3%;
+	top: 5%;
+	color: #ffffff;
+	font-size:20px;
+}
+
+#timeText {
+	position: relative;
+	left:3%;
+	top: 10%;
+	color: #1bb9fc;
+	font-size:12px;
+}
+
+
+
+/* Saved Page*/
+#saveItem {
+	top: 15%;
+    position: relative;
+	background-image: url("../images/1s.jpg");
+	width: 90%;
+	height: 65%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#sP {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#nameSText {
+	position: relative;
+	top:10%;
+	left:3%;
+	color: #afafaf;
+	font-size:21px;
+}
+
+#infoSText {
+	position:relative;
+	left:3%;
+	color: #ffffff;
+	font-size:20px;
+}
+
+#urlSText {
+	position:relative;
+	left:3%;
+	color: #ffffff;
+	font-size:20px;
+}
+
+#timeSText {
+	position: relative;
+	float:right;
+	right:3%;
+	color: #1bb9fc;
+	font-size:12px;
+}
+
+
+
+
+
+
+/* Testing */
+@media only screen and (max-width: 1170px){ 
+.da-second-nav nav ul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000000;
+  text-align: center;
+}
+
+.da-second-nav nav ul li { /* paddding in between elements */
+	display: inline-block;
+	list-style-type:none;
+	padding-right:50px;
+	padding-left:50px;
+	}
+
+.navIcons {
+	height:35px;
+	width:35px;
+  }
+  
+  #masterHalf {
 	position:fixed;
 	left:0;
 	right:0;
-	height:60%;
 	top:0;
+	height:60%;
 	background-color:grey;
+}
+
+  #map {
+	width:100%;
+	height:100%;
 }
 
 #slaveHalf{
@@ -65,33 +195,92 @@ body {
 	color: #1bb9fc;
 	font-size:12px;
 }
+  
+}
+	
 
+	
+	
+	
+	
+
+
+
+
+
+
+
+@media only screen and (min-width: 1170px) {
+  .da-second-nav ul {
+    /* reset navigation values */
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000000;
+  text-align: center;
+  }
+  .da-second-nav ul li {
+	  display: inline;
+	  list-style-type:none;
+	  padding-right:50px;
+	  padding-left:50px;
+  }
+  
+  .navIcons {
+	height:40px;
+	width:40px;
+  }
+
+    .da-second-nav-beAtrigger {  /* stops displaying the bottom menu */
+    display: none;
+  }
+ 
+ 
 #map {
 	width:100%;
 	height:100%;
 }
+ 
+#masterHalf {
+	position:fixed;
+	left:0;
+	right:0;
+	height:60%;
+	top:115px;
+	background-color:grey;
+} 
 
+#slaveHalf{
+	position:fixed;
+	left:0;
+	right:0;
+	height:40%;
+	bottom:0;
+	background-color:black;
+}
 
-
-/* Saved Page*/
-
-#saveItem {
+#content {
+	
 	top: 15%;
     position: relative;
-	background-image: url("../images/1s.jpg");
+	background-color: #1C1C1C;
 	width: 90%;
 	height: 65%;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
-#sP {
-	position:absolute;
-	width:100%;
-	height:100%;
+#pP {
+	position: relative;
+	float: left;
+	height:auto;
+	width: auto;
+	max-width:100%;
+	max-height:100%;
 }
 
-#nameSText {
+#nameText {
 	position: relative;
 	top:10%;
 	left:3%;
@@ -99,75 +288,44 @@ body {
 	font-size:21px;
 }
 
-#infoSText {
+#infoText {
 	position:relative;
 	left:3%;
+	top: 5%;
 	color: #ffffff;
 	font-size:20px;
 }
 
-#urlSText {
-	position:relative;
-	left:3%;
-	color: #ffffff;
-	font-size:20px;
-}
-
-#timeSText {
+#timeText {
 	position: relative;
-	float:right;
-	right:3%;
+	left:3%;
+	top: 10%;
 	color: #1bb9fc;
 	font-size:12px;
 }
-
-
-
-/* Testing */
-
-.da-second-nav ul {
-  position: fixed;
-  right: 5%;
-  bottom: 20px;
-  visibility: hidden;
-  transform: scale(0);
-  transform-origin: 100% 100%;
-  transition: transform 0.3s, visibility 0s 0.3s;
-}
-.da-second-nav ul.is-visible {
-  visibility: visible;
-  transform: scale(1);
-  transition: transform 0.3s, visibility 0s 0s;
-}
  
-@media only screen and (min-width: 1170px) {
-  .da-second-nav ul {
-    /* reset navigation values */
-    position: static;
-    width: auto;
-    max-width: 100%;
-    visibility: visible;
-    transform: scale(1);
-  }
-}
  
-.da-second-nav-beAtrigger {
-  position: fixed;
-  bottom: 20px;
-  right: 5%;
-  width: 44px;
-  height: 44px;
-}
-
-@media only screen and (min-width: 1170px) {
-  .da-second-nav-beAtrigger {
-    display: none;
-  }
+ 
+ 
+  
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media only screen and (min-width: 1170px) {
   .cd-secondary-nav.is-fixed {
     position: fixed;
@@ -189,39 +347,38 @@ body {
   .cd-secondary-nav.animate-children li a span {
     opacity: 0;
   }
-}
+}*/
 
-
-
-
-
+/*
 @media only screen and (min-width: 1170px) {
   #cd-logo.is-hidden {
-    /* assign a position fixed and move outside the viewport (on the left) */
+    /* assign a position fixed and move outside the viewport (on the left) 
     opacity: 0;
     position: fixed;
     left: -20%;
     transition: left 0.3s, opacity 0.3s;
   }
   #cd-logo.is-hidden.slide-in {
-    /* slide in when the secondary navigation gets fixed */
+    /* slide in when the secondary navigation gets fixed 
     left: 5%;
     opacity: 1;
   }
  
   .cd-btn.is-hidden {
-    /* assign a position fixed and move outside the viewport (on the right) */
+    /* assign a position fixed and move outside the viewport (on the right) 
     opacity: 0;
+    position: fixed;
     position: fixed;
     right: -20%;
     transition: right 0.3s, opacity 0.3s;
   }
   .cd-btn.is-hidden.slide-in {
-    /* slide in when the secondary nav gets fixed */
+    /* slide in when the secondary nav gets fixed 
     right: 5%;
     opacity: 1;
   }
 }
+*/
 
 
 
