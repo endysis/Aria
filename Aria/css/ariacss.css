@@ -3,56 +3,6 @@ body {
 	background-color: #000000;
 }
 
-
-
-
-
-#content {
-	
-	top: 15%;
-    position: relative;
-	background-color: #1C1C1C;
-	width: 90%;
-	height: 65%;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-#pP {
-	position: relative;
-	float: left;
-	height:auto;
-	width: auto;
-	max-width:100%;
-	max-height:100%;
-}
-
-#nameText {
-	position: relative;
-	top:10%;
-	left:3%;
-	color: #afafaf;
-	font-size:21px;
-}
-
-#infoText {
-	position:relative;
-	left:3%;
-	top: 5%;
-	color: #ffffff;
-	font-size:20px;
-}
-
-#timeText {
-	position: relative;
-	left:3%;
-	top: 10%;
-	color: #1bb9fc;
-	font-size:12px;
-}
-
-
-
 /* Saved Page*/
 #saveItem {
 	top: 15%;
@@ -102,11 +52,8 @@ body {
 
 
 
-
-
-
 /* Testing */
-@media only screen and (max-width: 1170px){ 
+@media only screen and (max-width: 1023px){ 
 .da-second-nav nav ul {
   position: absolute;
   right: 0;
@@ -115,21 +62,28 @@ body {
   padding: 1rem;
   background-color: #000000;
   text-align: center;
+  position:fixed;
 }
 
 .da-second-nav nav ul li { /* paddding in between elements */
 	display: inline-block;
 	list-style-type:none;
-	padding-right:50px;
-	padding-left:50px;
-	}
+	padding-right:0px;
+	padding-left:0px;
+	width:68px;
+}
+
+.da-second-nav nav ul li p { /* paddding in between elements */
+	color:#ffffff;
+	margin-top:-6px;
+}
 
 .navIcons {
-	height:35px;
-	width:35px;
+	height:30px;
+	width:30px;
   }
   
-  #masterHalf {
+#masterHalf {
 	position:fixed;
 	left:0;
 	right:0;
@@ -138,7 +92,7 @@ body {
 	background-color:grey;
 }
 
-  #map {
+#map {
 	width:100%;
 	height:100%;
 }
@@ -148,12 +102,11 @@ body {
 	left:0;
 	right:0;
 	height:40%;
-	bottom:0;
+	bottom:100px;
 	background-color:black;
 }
-
+ 
 #content {
-	
 	top: 15%;
     position: relative;
 	background-color: #1C1C1C;
@@ -174,43 +127,37 @@ body {
 
 #nameText {
 	position: relative;
-	top:10%;
-	left:3%;
+	top:-10px;
+	left:8px;
 	color: #afafaf;
 	font-size:21px;
 }
 
 #infoText {
 	position:relative;
-	left:3%;
-	top: 5%;
+	left:8px;
+	top:-20px;
 	color: #ffffff;
-	font-size:20px;
+	font-size:15px;
 }
 
 #timeText {
 	position: relative;
-	left:3%;
-	top: 10%;
+	left:8px;
+	top: -20px;
 	color: #1bb9fc;
 	font-size:12px;
+	} 
 }
-  
-}
 	
 
 	
-	
-	
-	
 
 
 
 
 
-
-
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1024px) {
   .da-second-nav ul {
     /* reset navigation values */
   position: absolute;
@@ -219,12 +166,14 @@ body {
   padding: 1rem;
   background-color: #000000;
   text-align: center;
+  position:fixed;
   }
   .da-second-nav ul li {
 	  display: inline;
 	  list-style-type:none;
-	  padding-right:50px;
-	  padding-left:50px;
+	  padding-right:30px;
+	  padding-left:30px;
+	  width:100px;
   }
   
   .navIcons {
@@ -235,7 +184,7 @@ body {
     .da-second-nav-beAtrigger {  /* stops displaying the bottom menu */
     display: none;
   }
- 
+
  
 #map {
 	width:100%;
@@ -261,7 +210,6 @@ body {
 }
 
 #content {
-	
 	top: 15%;
     position: relative;
 	background-color: #1C1C1C;
@@ -290,16 +238,16 @@ body {
 
 #infoText {
 	position:relative;
-	left:3%;
-	top: 5%;
+	left:3px;
+	top: 5px;
 	color: #ffffff;
 	font-size:20px;
 }
 
 #timeText {
 	position: relative;
-	left:3%;
-	top: 10%;
+	left:0px;
+	top: 0px;
 	color: #1bb9fc;
 	font-size:12px;
 }
@@ -309,82 +257,6 @@ body {
  
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-@media only screen and (min-width: 1170px) {
-  .cd-secondary-nav.is-fixed {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 70px;
-    width: 100%;
-  }
-  .cd-secondary-nav li a {
-    padding: 58px 40px 0 40px;
-    transition: padding 0.2s;
-  }
-  .cd-secondary-nav li a span {
-    transition: opacity 0.2s;
-  }
-  .cd-secondary-nav.animate-children li a {
-    padding: 26px 30px 0 30px;
-  }
-  .cd-secondary-nav.animate-children li a span {
-    opacity: 0;
-  }
-}*/
-
-/*
-@media only screen and (min-width: 1170px) {
-  #cd-logo.is-hidden {
-    /* assign a position fixed and move outside the viewport (on the left) 
-    opacity: 0;
-    position: fixed;
-    left: -20%;
-    transition: left 0.3s, opacity 0.3s;
-  }
-  #cd-logo.is-hidden.slide-in {
-    /* slide in when the secondary navigation gets fixed 
-    left: 5%;
-    opacity: 1;
-  }
- 
-  .cd-btn.is-hidden {
-    /* assign a position fixed and move outside the viewport (on the right) 
-    opacity: 0;
-    position: fixed;
-    position: fixed;
-    right: -20%;
-    transition: right 0.3s, opacity 0.3s;
-  }
-  .cd-btn.is-hidden.slide-in {
-    /* slide in when the secondary nav gets fixed 
-    right: 5%;
-    opacity: 1;
-  }
-}
-*/
-
-
-
-
-
-
 
 
 
