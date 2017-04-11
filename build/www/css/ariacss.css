@@ -1,0 +1,601 @@
+/* Main Page */
+body {
+	background-color: #000000;
+}
+
+/* Saved Page*/
+#saveItem {
+	top: 15%;
+    position: relative;
+	background-image: url("../images/1s.jpg");
+	width: 90%;
+	height: 65%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#sP {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#nameSText {
+	position: relative;
+	top:10%;
+	left:3%;
+	color: #afafaf;
+	font-size:21px;
+}
+
+#infoSText {
+	position:relative;
+	left:3%;
+	color: #ffffff;
+	font-size:20px;
+}
+
+#urlSText {
+	position:relative;
+	left:3%;
+	color: #ffffff;
+	font-size:20px;
+}
+
+#timeSText {
+	position: relative;
+	float:right;
+	right:3%;
+	color: #1bb9fc;
+	font-size:12px;
+}
+
+
+
+/* Testing */
+@media only screen and (min-width: 220px){ 
+.da-second-nav nav ul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  width:80%;
+  position:fixed;
+  margin: 0 auto;
+}
+
+.da-second-nav nav ul li { /* paddding in between elements */
+	width:10%;
+	display: inline-block;
+	list-style-type:none;
+	padding-right:5%;
+	padding-left:5%;
+	
+}
+
+.da-second-nav nav ul li p { /* paddding in between elements */
+	color:#ffffff;
+	margin-top:-6px;
+}
+
+.navIcons {
+	height:auto;
+	width:auto;
+	max-width:100%;
+	max-height:100%;
+	min-width:30px;
+	min-height:30px;
+}
+  
+#masterHalf {
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	height:75%;
+	background-color:grey;
+}
+
+#map {
+	width:100%;
+	height:100%;
+}
+
+#slaveHalf{
+	position:fixed;
+	left:0;
+	right:0;
+	right:0;
+	height:25%;
+	bottom:100px;
+	background-color:black;
+}
+ 
+#contentBox {
+	top: 20%;
+    position: relative;
+	background-color: #1C1C1C;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#pictureSec {
+	position:relative;
+	float:left;
+	width:45%;
+	height:100%;
+	background-color: red;
+}
+
+#pP {
+	float: left;
+	width:auto;
+	height:auto; 
+	max-width:100%;
+	max-height:100%;
+}
+
+
+#infoSec {
+	position:relative;
+	width:55%;
+	height:100%;
+	float:left;
+	background-color: green;
+	overflow:hidden;
+}
+
+
+#nameText {
+	position:relative;
+	color: #afafaf;
+	font-size:16px;
+	padding-top:0%;
+	left:2%;
+}
+
+#infoText {
+	position:relative;
+	left:0px;
+	color: #ffffff;
+	font-size:14px;
+	left:2%;
+}
+
+#timeText {
+	position: relative;
+	margin-top: 10px;
+	color: #1bb9fc;
+	font-size:12px;
+	padding-top:2%;
+	left:2%;
+	} 
+}
+	
+	
+	
+	
+	
+@media only screen and (min-width: 400px){ 
+.da-second-nav nav ul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  width:80%;
+  position:fixed;
+  margin: 0 auto;
+}
+
+.da-second-nav nav ul li { /* paddding in between elements */
+	width:10%;
+	display: inline-block;
+	list-style-type:none;
+	padding-right:5%;
+	padding-left:5%;
+	
+}
+
+.da-second-nav nav ul li p { /* paddding in between elements */
+	color:#ffffff;
+	margin-top:-6px;
+}
+
+.navIcons {
+	height:auto;
+	width:auto;
+	max-width:100%;
+	max-height:100%;
+	min-width:30px;
+	min-height:30px;
+}
+  
+#masterHalf {
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	height:75%;
+	background-color:grey;
+}
+
+#map {
+	width:100%;
+	height:100%;
+}
+
+#slaveHalf{
+	position:fixed;
+	left:0;
+	right:0;
+	right:0;
+	height:25%;
+	bottom:100px;
+	background-color:black;
+}
+ 
+#contentBox {
+	top: 20%;
+    position: relative;
+	background-color: #1C1C1C;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#pictureSec {
+	position:relative;
+	float:left;
+	width:45%;
+	height:100%;
+	background-color: red;
+}
+
+#pP {
+	float: left;
+	width:auto;
+	height:auto; 
+	max-width:100%;
+	max-height:100%;
+}
+
+
+#infoSec {
+	position:relative;
+	width:55%;
+	height:100%;
+	float:left;
+	background-color: green;
+	overflow:hidden;
+}
+
+
+#nameText {
+	position:relative;
+	color: #afafaf;
+	font-size:20px;
+	margin-top:3%;
+	left:2%;
+}
+
+#infoText {
+	position:relative;
+	left:0px;
+	color: #ffffff;
+	font-size:18px;
+	left:2%;
+}
+
+#timeText {
+	position: relative;
+	margin-top: 10px;
+	color: #1bb9fc;
+	font-size:12px;
+	padding-top:4%;
+	left:2%;
+	} 
+}
+
+
+
+@media only screen and (min-width: 500px){ 
+.da-second-nav nav ul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  width:60%;
+  position:fixed;
+  margin: 0 auto;
+}
+
+.da-second-nav nav ul li { /* paddding in between elements */
+	width:10%;
+	display: inline-block;
+	list-style-type:none;
+	padding-right:5%;
+	padding-left:5%;
+	
+}
+
+.da-second-nav nav ul li p { /* paddding in between elements */
+	color:#ffffff;
+	margin-top:-6px;
+}
+
+.navIcons {
+	height:auto;
+	width:auto;
+	max-width:100%;
+	max-height:100%;
+	min-width:30px;
+	min-height:30px;
+}
+  
+#masterHalf {
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	height:75%;
+	background-color:grey;
+}
+
+#map {
+	width:100%;
+	height:100%;
+}
+
+#slaveHalf{
+	position:fixed;
+	left:0;
+	right:0;
+	right:0;
+	height:25%;
+	bottom:100px;
+	background-color:black;
+}
+ 
+#contentBox {
+	top: 20%;
+    position: relative;
+	background-color: #1C1C1C;
+	width: 90%;
+	height: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#pictureSec {
+	position:relative;
+	float:left;
+	width:45%;
+	height:100%;
+	background-color: red;
+}
+
+#pP {
+	float: left;
+	width:auto;
+	height:auto; 
+	max-width:100%;
+	max-height:100%;
+}
+
+
+#infoSec {
+	position:relative;
+	width:55%;
+	height:100%;
+	float:left;
+	background-color: green;
+	overflow:hidden;
+}
+
+
+#nameText {
+	position:relative;
+	color: #afafaf;
+	font-size:28px;
+	margin-top:2%;
+	left:2%;
+}
+
+#infoText {
+	position:relative;
+	left:0px;
+	color: #ffffff;
+	font-size:25px;
+	left:2%;
+}
+
+#timeText {
+	position: relative;
+	margin-top: 10px;
+	color: #1bb9fc;
+	font-size:18px;
+	padding-top:2%;
+	left:2%;
+	} 
+}
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+@media only screen and (min-width: 1024px) {
+  .da-second-nav ul {
+    /* reset navigation values */
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000000;
+  text-align: center;
+  position:fixed;
+  }
+  .da-second-nav ul li {
+	  display: inline;
+	  list-style-type:none;
+	  padding-right:30px;
+	  padding-left:30px;
+	  width:100px;
+  }
+  
+  .navIcons {
+	height:40px;
+	width:40px;
+  }
+
+    .da-second-nav-beAtrigger {  /* stops displaying the bottom menu */
+    display: none;
+  }
+
+ 
+#map {
+	width:100%;
+	height:100%;
+}
+ 
+#masterHalf {
+	position:fixed;
+	left:0;
+	right:0;
+	height:60%;
+	top:115px;
+	background-color:grey;
+} 
+
+#slaveHalf{
+	position:fixed;
+	left:0;
+	right:0;
+	height:40%;
+	bottom:0;
+	background-color:black;
+}
+
+#content {
+	top: 15%;
+    position: relative;
+	background-color: #1C1C1C;
+	width: 90%;
+	height: 65%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#pP {
+	position: relative;
+	float: left;
+	height:auto;
+	width: auto;
+	max-width:100%;
+	max-height:100%;
+}
+
+#nameText {
+	position: relative;
+	top:10%;
+	left:3%;
+	color: #afafaf;
+	font-size:21px;
+}
+
+#infoText {
+	position:relative;
+	left:3px;
+	top: 5px;
+	color: #ffffff;
+	font-size:20px;
+}
+
+#timeText {
+	position: relative;
+	left:0px;
+	top: 0px;
+	color: #1bb9fc;
+	font-size:12px;
+}
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

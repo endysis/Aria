@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Aria Nav Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="stylesheet" href="css/ariacss.css"/>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	
+		
+</head>
+<body>
+ 
+<div class="da-second-nav">
+	<nav>
+		<ul>
+			<li>
+					<img class = "navIcons"id = "mapIcon" src ="images/icons/folderIw.png"> </img>
+
+			</li>
+			<li>
+					<img class = "navIcons" id = "mapIcon" src ="images/icons/addIw.png"> </img>
+
+			</li>
+			<li>
+					<img class = "navIcons" id = "mapIcon" src ="images/icons/mapIw.png"> </img>
+
+			</li>
+			<li>
+					<img class = "navIcons"id = "mapIcon" src ="images/icons/folderIw.png"> </img>
+
+			</li>
+		</ul>
+	</nav>
+</div> 
+
+
+
+<div id = "masterHalf"> 
+
+<div id = "map"> </div>
+</div>
+
+
+
+<div id = "slaveHalf"> 
+<div id = "contentBox">
+
+<img id = "pP" src = "images/i1.jpg" alt = "Profile Picture">
+
+<p id = "nameText"><i>Travis Taylor</i></p>
+<p id = "infoText"><b>Guitarist looking to colab with an ambient  singer</b></p>
+<p id = "timeText">2 hours ago</p>
+</div>
+</div>
+
+
+
+
+<script>
+      function initMap() {
+        var uluru = {lat: 53.2307, lng: -.5406};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+	  
+    </script>
+	
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJOvvrdsQEVy5v9penOMpoLVNB1YyJYE&callback=initMap">
+  </script>
+</body>
+</html>
