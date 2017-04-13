@@ -6,9 +6,14 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<link rel="stylesheet" href="css/ariacss.css"/>
+	<!--script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJOvvrdsQEVy5v9penOMpoLVNB1YyJYE"-->
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJOvvrdsQEVy5v9penOMpoLVNB1YyJYE&callback=initMap">
+	</script>
 	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/j.js"></script>
+	<script src="js/swiper.min.js"></script>
+
 	
-		
 </head>
 <body>
  
@@ -37,22 +42,78 @@
 
 
 
-<div id = "masterHalf"> 
 
+
+<div id = "masterHalf"> 
+ 
 <div id = "map"> </div>
 </div>
 
 
-
 <div id = "slaveHalf"> 
-<div id = "contentBox">
-
-<img id = "pP" src = "images/i1.jpg" alt = "Profile Picture">
-
-<p id = "nameText"><i>Travis Taylor</i></p>
-<p id = "infoText"><b>Guitarist looking to colab with an ambient  singer</b></p>
-<p id = "timeText">2 hours ago</p>
-</div>
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+				<div class = "contentBox">
+				<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/1.jpg" alt = "Profile Picture">
+				</div>
+				<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Travis Taylor</i></p>
+					<p id = "infoText"><b>Guitarist looking to colab with an ambient  singer</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">2 hours ago</p>
+					</div>
+				</div>
+			</div>
+            <div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/2.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Flows</i></p>
+					<p id = "infoText"><b>An up and comming duo looking for a lead guitarist</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">2 hours ago</p>
+					</div>
+				</div>
+			</div>
+            <div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/3.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Mark Pacard</i></p>
+					<p id = "infoText"><b>A hip-hop singer who wants to collaborate with a producer</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">2 hours ago</p>
+					</div>
+				</div>
+				</div>
+            <div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/4.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Wun Two</i></p>
+					<p id = "infoText"><b>An exprimental band looking for a bass player</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">2 hours ago</p>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+	
+	
+	
+	
+	
+	
+	
 </div>
 
 
@@ -73,8 +134,9 @@
 	  
     </script>
 	
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJOvvrdsQEVy5v9penOMpoLVNB1YyJYE&callback=initMap">
-  </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJOvvrdsQEVy5v9penOMpoLVNB1YyJYE&callback=initMap">
+	</script>
+  
+  
 </body>
 </html>
