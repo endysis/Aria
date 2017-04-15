@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Aria Nav Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="stylesheet" href="css/ariacss.css"/>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/j.js"></script>
+	<script src="js/swiper.min.js"></script>
+
+	
+</head>
+<body>
+ 
+<div class="da-second-nav">
+	<nav>
+		<ul>
+			<li>
+				<img class = "navIcons"id = "mapIcon" src ="images/icons/folderIw.png"> </img>
+
+			</li>
+			<li>
+					<img class = "navIcons" id = "mapIcon" src ="images/icons/addIw.png"> </img>
+
+			</li>
+			<li>
+					<img class = "navIcons" id = "mapIcon" src ="images/icons/mapIw.png"> </img>
+
+			</li>
+			<li>
+			<a href = "save.html"><img class = "navIcons"id = "mapIcon" src ="images/icons/folderIw.png"> </img></a>
+
+			</li>
+		</ul>
+	</nav>
+</div> 
+
+
+
+
+  
+  
+</body>
+</html>
