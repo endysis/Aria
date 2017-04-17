@@ -43,6 +43,127 @@ body {
 	min-width:30px;
 	min-height:30px;
 }
+
+
+
+/* Title Screen */
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+
+#tranluTitleC{
+	left:0;
+	right:0;
+	top:0;
+	position:absolute;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+#tranluTitleC img {
+	width:100%;
+	height:100%;
+}
+
+
+#titleC {
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	position:absolute;
+	width:100%;
+	height:50%;
+	overflow:hidden;
+	}
+
+#title {
+	font-size:95px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+	color: #ffffff;
+	z-index:100;
+}
+
+#titleLine {
+	font-size:60px;
+	vertical-align: middle;
+	text-align: center;
+	margin-top:-118px;
+	color: #ffffff;
+}
+
+
+#findC {
+	position:fixed;
+	left:0;
+	right:0;
+    bottom:0px;
+    width:100%;   
+	height:80px;
+}
+
+#findBox {
+	width:55%;
+	height:70%;
+	margin-top:40px;
+    margin:0px auto; 
+	border: 1.5px solid;
+	border-color: #ffffff;
+}
+
+#findBox p {
+  text-align: center;
+  font-size:18px;
+  color : #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Screen */
   
 #masterHalf {
 	position:fixed;
