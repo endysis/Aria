@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Aria Nav Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="stylesheet" href="css/ariacss.css"/>
+	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript"  src="js/swiper.min.js"></script>
+	<!--script type="text/javascript" src="js/dataReturn.js"></script-->
+	<script type="text/javascript" src="js/j.js"></script>
+	
+	
+</head>
+<body>
+ 
+<div class="da-second-nav">
+	<nav>
+		<ul>
+			<li>
+			<a href = "music.html"><img class = "navIcons"id = "first" src ="images/icons/idea.png"> </img></a>
+
+			</li>
+			<li>
+					<img class = "navIcons" id = "saveIcon" src ="images/icons/addIw.png"> </img>
+
+			</li>
+			<li>
+					<img class = "navIcons" id = "mapIcon" src ="images/icons/mapIw.png"> </img>
+
+			</li>
+			<li>
+			<a href = "saveN.html"><img class = "navIcons"id = "mapIcon" src ="images/icons/folderIw.png"> </img></a>
+
+			</li>
+		</ul>
+	</nav>
+</div> 
+
+
+<div id = "masterHalf"> 
+ 
+<div id = "map"> </div>
+</div>
+
+
+<div id = "slaveHalf"> 
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+				<div class = "contentBox">
+				<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/1.jpg" alt = "Profile Picture">
+				</div>
+				<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>loading</i></p>
+					<p id = "infoText"><b>...</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">2 hours ago</p>
+					</div>
+				</div>
+				<p id = "ad"></p> <!-- Artist Description !-->
+				<p id = "at"></p> <!-- Artist Type-->
+				<p id = "ag"></p> <!-- Artsit Genre -->
+				<p id = "lat"></p> <!-- Lat -->
+				<p id = "long"></p> <!-- Long -->
+			</div>
+			
+            <div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/2.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Flows</i></p>
+					<p id = "infoText"><b>An up and comming duo looking for a lead guitarist</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">7 hours ago</p>
+					</div>
+				</div>
+				<p id = "ad"></p> <!-- Artist Description !-->
+				<p id = "at"></p> <!-- Artist Type-->
+				<p id = "ag"></p> <!-- Artsit Genre -->
+				<p id = "lat">32.778259</p> <!-- Lat -->
+				<p id = "long">-119.417931</p> <!-- Long -->
+			</div>
+            <div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/3.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Mark Pacard</i></p>
+					<p id = "infoText"><b>A hip-hop singer who wants to collaborate with a producer</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">22 hours ago</p>
+					</div>
+				</div>
+				</div>
+            <div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/4.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Wun Two</i></p>
+					<p id = "infoText"><b>An exprimental band looking for a bass player</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">2 days ago</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/5.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameText"><i>Hives</i></p>
+					<p id = "infoText"><b>A synth pop band looking for a lead singer</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">4 days ago</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="swiper-slide">
+			<div class = "contentBox">
+					<div id = "pictureSec">
+					<img id = "pP" src = "images/artistPics/5.jpg" alt = "Profile Picture">
+					</div>
+					<div id = "rightBarrier"></div>
+					<p id = "nameTexta"><i>Hives</i></p>
+					<p id = "infoText"><b>A synth pop band looking for a lead singer</b></p>
+					<div id = "bottomBarrier">
+					<p id = "timeText">4 days ago</p>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+      function initMap() {
+        var uluru = {lat: 53.2307, lng: -.5406};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+	
+	
+<script>
+
+</script>
+
+
+	
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJOvvrdsQEVy5v9penOMpoLVNB1YyJYE&callback=initMap">
+	</script>
+  
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

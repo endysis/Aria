@@ -1,8 +1,0 @@
-Password: ripley
-Alias Name: appa
-Keystore name: app
-
-
-
-email: shea_o
-pass: Ripley96
